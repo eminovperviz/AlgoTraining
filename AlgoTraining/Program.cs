@@ -6,7 +6,6 @@ WriteArray(arrResult);
 
 Console.ReadKey();
 
-
 // find duplicates in given array
 bool ContainsDuplicate(int[] nums)
 {
@@ -27,6 +26,7 @@ bool IsAnagram(string s, string t)
     return Enumerable.SequenceEqual(sArray, tArray);
 }
 
+// replace elements with greatest element on right side 
 int[] ReplaceElements(int[] arr)
 {
     int max = 0;
